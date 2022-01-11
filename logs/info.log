@@ -1,0 +1,418 @@
+INFO 2022-01-11 07:59:46,345 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 08:00:15,675 basehttp 157 "POST /detect/ HTTP/1.1" 200 239
+INFO 2022-01-11 08:00:52,979 autoreload 240 /Users/duty/PycharmProjects/ocr/ocr/views.py changed, reloading.
+INFO 2022-01-11 08:00:54,200 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 08:01:01,753 views 35 图片保存完成！！
+INFO 2022-01-11 08:01:18,519 views 47 商品57451455识别完成！！！
+INFO 2022-01-11 08:01:18,520 basehttp 157 "POST /detect/ HTTP/1.1" 200 239
+INFO 2022-01-11 08:03:50,139 autoreload 240 /Users/duty/PycharmProjects/ocr/ocr/views.py changed, reloading.
+INFO 2022-01-11 08:03:51,362 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 08:09:18,657 autoreload 240 /Users/duty/PycharmProjects/ocr/sizechart_detect/whole_stages.py changed, reloading.
+INFO 2022-01-11 08:09:19,776 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 08:09:28,664 views 35 图片保存完成！！
+INFO 2022-01-11 08:09:38,039 whole_stages 21 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 列识别完成
+INFO 2022-01-11 08:09:40,266 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:09:40,266 whole_stages 35 ['建议身高', '00-105', '100-110', '110-120', '120-130', '130-140']
+INFO 2022-01-11 08:09:41,638 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:09:41,639 whole_stages 35 ['胸围', '71', '74', '78', '86']
+INFO 2022-01-11 08:09:43,171 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:09:43,171 whole_stages 35 ['尺码(G)', '105', '110', '120', '130', '140']
+INFO 2022-01-11 08:09:44,587 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:09:44,588 whole_stages 35 ['衣长', '40', '43', '46', '50', '54']
+INFO 2022-01-11 08:09:46,040 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:09:46,040 whole_stages 35 ['袖长', '46', '50', '54', '58.5']
+INFO 2022-01-11 08:09:46,040 views 47 商品：57451455 识别完成！！！
+INFO 2022-01-11 08:09:46,041 basehttp 157 "POST /detect/ HTTP/1.1" 200 239
+INFO 2022-01-11 08:13:57,135 autoreload 240 /Users/duty/PycharmProjects/ocr/ocr/settings.py changed, reloading.
+INFO 2022-01-11 08:13:58,556 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 08:14:07,792 views 35 图片保存完成！！
+INFO 2022-01-11 08:14:17,469 whole_stages 21 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 列识别完成
+INFO 2022-01-11 08:14:19,552 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:14:19,552 whole_stages 35 ['建议身高', '00-105', '100-110', '110-120', '120-130', '130-140']
+INFO 2022-01-11 08:14:20,874 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:14:20,875 whole_stages 35 ['胸围', '71', '74', '78', '86']
+INFO 2022-01-11 08:14:22,353 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:14:22,354 whole_stages 35 ['尺码(G)', '105', '110', '120', '130', '140']
+INFO 2022-01-11 08:14:23,750 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:14:23,750 whole_stages 35 ['衣长', '40', '43', '46', '50', '54']
+INFO 2022-01-11 08:14:25,191 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:14:25,191 whole_stages 35 ['袖长', '46', '50', '54', '58.5']
+INFO 2022-01-11 08:14:25,191 views 47 商品：57451455 识别完成！！！
+INFO 2022-01-11 08:14:25,192 basehttp 157 "POST /detect/ HTTP/1.1" 200 239
+INFO 2022-01-11 08:14:45,741 autoreload 240 /Users/duty/PycharmProjects/ocr/ocr/settings.py changed, reloading.
+INFO 2022-01-11 08:14:46,427 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 08:22:59,401 autoreload 240 /Users/duty/PycharmProjects/ocr/sizechart_detect/detect/ctpn_predict.py changed, reloading.
+INFO 2022-01-11 08:23:00,473 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 08:23:03,907 ctpn_predict 35 CTPN模型加载完成
+INFO 2022-01-11 08:23:04,009 ocr 10 CRNN模型加载完成！！
+INFO 2022-01-11 08:24:13,243 autoreload 240 /Users/duty/PycharmProjects/ocr/sizechart_detect/whole_stages.py changed, reloading.
+INFO 2022-01-11 08:24:14,286 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 08:24:17,682 ctpn_predict 35 CTPN模型加载完成
+INFO 2022-01-11 08:24:17,787 ocr 10 CRNN模型加载完成！！
+INFO 2022-01-11 08:24:19,664 whole_stages 11 yolo模型记载完成！！
+INFO 2022-01-11 08:25:09,139 views 35 图片保存完成！！
+INFO 2022-01-11 08:25:17,830 whole_stages 21 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 列识别完成
+INFO 2022-01-11 08:25:19,854 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:25:19,854 whole_stages 35 ['建议身高', '00-105', '100-110', '110-120', '120-130', '130-140']
+INFO 2022-01-11 08:25:21,136 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:25:21,136 whole_stages 35 ['胸围', '71', '74', '78', '86']
+INFO 2022-01-11 08:25:22,610 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:25:22,611 whole_stages 35 ['尺码(G)', '105', '110', '120', '130', '140']
+INFO 2022-01-11 08:25:23,958 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:25:23,958 whole_stages 35 ['衣长', '40', '43', '46', '50', '54']
+INFO 2022-01-11 08:25:25,354 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:25:25,354 whole_stages 35 ['袖长', '46', '50', '54', '58.5']
+INFO 2022-01-11 08:25:25,354 views 47 商品：57451455 识别完成！！！
+INFO 2022-01-11 08:25:25,355 basehttp 157 "POST /detect/ HTTP/1.1" 200 239
+INFO 2022-01-11 08:29:14,451 autoreload 240 /Users/duty/PycharmProjects/ocr/sizechart_detect/detect/ctpn_predict.py changed, reloading.
+INFO 2022-01-11 08:29:15,660 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 08:29:19,013 ocr 10 CRNN模型加载完成！！
+INFO 2022-01-11 08:29:20,802 whole_stages 11 yolo模型记载完成！！
+INFO 2022-01-11 08:29:23,858 views 35 图片保存完成！！
+INFO 2022-01-11 08:29:32,649 whole_stages 21 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 列识别完成
+INFO 2022-01-11 08:29:34,687 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:29:34,687 whole_stages 35 ['建议身高', '00-105', '100-110', '110-120', '120-130', '130-140']
+INFO 2022-01-11 08:29:35,988 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:29:35,988 whole_stages 35 ['胸围', '71', '74', '78', '86']
+INFO 2022-01-11 08:29:37,467 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:29:37,467 whole_stages 35 ['尺码(G)', '105', '110', '120', '130', '140']
+INFO 2022-01-11 08:29:38,836 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:29:38,836 whole_stages 35 ['衣长', '40', '43', '46', '50', '54']
+INFO 2022-01-11 08:29:40,233 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:29:40,234 whole_stages 35 ['袖长', '46', '50', '54', '58.5']
+INFO 2022-01-11 08:29:40,234 views 47 商品：57451455 识别完成！！！
+INFO 2022-01-11 08:29:40,234 basehttp 157 "POST /detect/ HTTP/1.1" 200 239
+INFO 2022-01-11 08:32:56,499 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 08:32:58,936 ocr 10 CRNN模型加载完成！！
+INFO 2022-01-11 08:33:00,751 whole_stages 11 yolo模型记载完成！！
+INFO 2022-01-11 08:33:04,427 views 35 商品：57451455图片保存完成！！
+INFO 2022-01-11 08:33:13,761 whole_stages 21 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 列识别完成
+INFO 2022-01-11 08:33:15,853 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:33:15,853 whole_stages 35 ['建议身高', '00-105', '100-110', '110-120', '120-130', '130-140']
+INFO 2022-01-11 08:33:17,143 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:33:17,143 whole_stages 35 ['胸围', '71', '74', '78', '86']
+INFO 2022-01-11 08:33:18,619 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:33:18,619 whole_stages 35 ['尺码(G)', '105', '110', '120', '130', '140']
+INFO 2022-01-11 08:33:19,987 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:33:19,988 whole_stages 35 ['衣长', '40', '43', '46', '50', '54']
+INFO 2022-01-11 08:33:21,387 whole_stages 29 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:33:21,387 whole_stages 35 ['袖长', '46', '50', '54', '58.5']
+INFO 2022-01-11 08:33:21,387 views 47 商品：57451455 识别完成！！！
+INFO 2022-01-11 08:33:21,388 basehttp 157 "POST /detect/ HTTP/1.1" 200 239
+INFO 2022-01-11 08:40:53,736 autoreload 240 /Users/duty/PycharmProjects/ocr/sizechart_detect/detect/ctpn_predict.py changed, reloading.
+INFO 2022-01-11 08:40:54,995 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 08:42:19,075 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 08:43:00,584 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 08:43:31,311 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 08:43:33,311 ocr 10 CRNN模型加载完成！！
+INFO 2022-01-11 08:43:35,311 whole_stages 20 yolo模型记载完成！！
+INFO 2022-01-11 08:43:43,361 views 37 商品：57451455图片保存完成！！
+INFO 2022-01-11 08:43:52,976 whole_stages 43 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 列识别完成
+ERROR 2022-01-11 08:43:53,048 log 230 Internal Server Error: /detect/
+Traceback (most recent call last):
+  File "/Users/duty/Library/Python/3.7/lib/python/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/duty/Library/Python/3.7/lib/python/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/duty/PycharmProjects/ocr/ocr/views.py", line 43, in post
+    detect_texts = whole_stages(filepath)
+  File "/Users/duty/PycharmProjects/ocr/sizechart_detect/whole_stages.py", line 50, in whole_stages
+    col_detect_results, image_framed = ocr2(image, detector, recognizer)
+  File "/Users/duty/PycharmProjects/ocr/sizechart_detect/ocr.py", line 87, in ocr2
+    text_recs, img_framed, image = get_det_boxes(image, detector)
+  File "/Users/duty/PycharmProjects/ocr/sizechart_detect/detect/ctpn_predict.py", line 53, in get_det_boxes
+    image = image.to(device)
+NameError: name 'device' is not defined
+ERROR 2022-01-11 08:43:53,049 basehttp 157 "POST /detect/ HTTP/1.1" 500 91184
+INFO 2022-01-11 08:47:21,325 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 08:47:22,629 ocr 10 CRNN模型加载完成！！
+INFO 2022-01-11 08:47:24,376 whole_stages 20 yolo模型记载完成！！
+INFO 2022-01-11 08:47:29,649 views 37 商品：57451455图片保存完成！！
+INFO 2022-01-11 08:47:38,651 whole_stages 43 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 列识别完成
+INFO 2022-01-11 08:47:40,662 whole_stages 51 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:47:40,662 whole_stages 57 ['建议身高', '00-105', '100-110', '110-120', '120-130', '130-140']
+INFO 2022-01-11 08:47:41,950 whole_stages 51 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:47:41,950 whole_stages 57 ['胸围', '71', '74', '78', '86']
+INFO 2022-01-11 08:47:43,420 whole_stages 51 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:47:43,420 whole_stages 57 ['尺码(G)', '105', '110', '120', '130', '140']
+INFO 2022-01-11 08:47:44,787 whole_stages 51 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:47:44,787 whole_stages 57 ['衣长', '40', '43', '46', '50', '54']
+INFO 2022-01-11 08:47:46,181 whole_stages 51 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 08:47:46,181 whole_stages 57 ['袖长', '46', '50', '54', '58.5']
+INFO 2022-01-11 08:47:46,182 views 49 商品：57451455 识别完成！！！
+INFO 2022-01-11 08:47:46,182 basehttp 157 "POST /detect/ HTTP/1.1" 200 239
+INFO 2022-01-11 09:02:56,450 autoreload 240 /Users/duty/PycharmProjects/ocr/sizechart_detect/recognize/crnn_recognizer.py changed, reloading.
+INFO 2022-01-11 09:02:57,798 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 09:02:59,631 ocr 10 CRNN模型加载完成！！
+INFO 2022-01-11 09:03:01,564 whole_stages 20 yolo模型记载完成！！
+INFO 2022-01-11 09:03:45,378 views 37 商品：57451455图片保存完成！！
+INFO 2022-01-11 09:03:54,576 whole_stages 43 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 列识别完成
+INFO 2022-01-11 09:03:56,570 whole_stages 51 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 09:03:56,570 whole_stages 57 ['建议身高', '00-105', '100-110', '110-120', '120-130', '130-140']
+INFO 2022-01-11 09:03:57,840 whole_stages 51 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 09:03:57,840 whole_stages 57 ['胸围', '71', '74', '78', '86']
+INFO 2022-01-11 09:03:59,301 whole_stages 51 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 09:03:59,301 whole_stages 57 ['尺码(G)', '105', '110', '120', '130', '140']
+INFO 2022-01-11 09:04:00,668 whole_stages 51 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 09:04:00,668 whole_stages 57 ['衣长', '40', '43', '46', '50', '54']
+INFO 2022-01-11 09:04:02,065 whole_stages 51 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 09:04:02,065 whole_stages 57 ['袖长', '46', '50', '54', '58.5']
+INFO 2022-01-11 09:04:02,065 views 49 商品：57451455 识别完成！！！
+INFO 2022-01-11 09:04:02,066 basehttp 157 "POST /detect/ HTTP/1.1" 200 239
+INFO 2022-01-11 09:05:05,739 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 09:05:06,634 ocr 10 CRNN模型加载完成！！
+INFO 2022-01-11 09:05:08,374 whole_stages 20 yolo模型记载完成！！
+INFO 2022-01-11 09:05:14,873 views 37 商品：57451455图片保存完成！！
+INFO 2022-01-11 09:05:25,123 whole_stages 43 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 列识别完成
+INFO 2022-01-11 09:05:27,258 whole_stages 51 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 09:05:27,258 whole_stages 57 ['建议身高', '00-105', '100-110', '110-120', '120-130', '130-140']
+INFO 2022-01-11 09:05:28,690 whole_stages 51 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 09:05:28,690 whole_stages 57 ['胸围', '71', '74', '78', '86']
+INFO 2022-01-11 09:05:30,237 whole_stages 51 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 09:05:30,238 whole_stages 57 ['尺码(G)', '105', '110', '120', '130', '140']
+INFO 2022-01-11 09:05:31,629 whole_stages 51 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 09:05:31,629 whole_stages 57 ['衣长', '40', '43', '46', '50', '54']
+INFO 2022-01-11 09:05:33,050 whole_stages 51 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 09:05:33,050 whole_stages 57 ['袖长', '46', '50', '54', '58.5']
+INFO 2022-01-11 09:05:33,050 views 49 商品：57451455 识别完成！！！
+INFO 2022-01-11 09:05:33,051 basehttp 157 "POST /detect/ HTTP/1.1" 200 239
+INFO 2022-01-11 09:05:36,173 autoreload 240 /Users/duty/PycharmProjects/ocr/sizechart_detect/whole_stages.py changed, reloading.
+INFO 2022-01-11 09:05:36,864 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 09:05:37,899 ocr 10 CRNN模型加载完成！！
+INFO 2022-01-11 09:05:39,670 whole_stages 20 yolo模型记载完成！！
+INFO 2022-01-11 09:05:41,237 whole_stages 30 CTPN模型加载完成
+INFO 2022-01-11 09:05:41,325 whole_stages 32 CRNN模型加载完成
+INFO 2022-01-11 09:07:37,193 autoreload 240 /Users/duty/PycharmProjects/ocr/sizechart_detect/whole_stages.py changed, reloading.
+INFO 2022-01-11 09:07:37,891 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 09:07:38,820 ocr 10 CRNN模型加载完成！！
+INFO 2022-01-11 09:07:40,648 whole_stages 21 yolo模型记载完成！！
+INFO 2022-01-11 09:07:42,182 whole_stages 31 CTPN模型加载完成
+INFO 2022-01-11 09:07:42,263 whole_stages 33 CRNN模型加载完成
+INFO 2022-01-11 09:07:45,108 views 37 商品：57451455图片保存完成！！
+INFO 2022-01-11 09:07:53,983 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 列识别完成, 耗时为：8875毫秒
+INFO 2022-01-11 09:07:56,008 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 09:07:56,009 whole_stages 60 ['建议身高', '00-105', '100-110', '110-120', '120-130', '130-140']
+INFO 2022-01-11 09:07:57,316 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 09:07:57,317 whole_stages 60 ['胸围', '71', '74', '78', '86']
+INFO 2022-01-11 09:07:58,787 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 09:07:58,787 whole_stages 60 ['尺码(G)', '105', '110', '120', '130', '140']
+INFO 2022-01-11 09:08:00,158 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 09:08:00,159 whole_stages 60 ['衣长', '40', '43', '46', '50', '54']
+INFO 2022-01-11 09:08:01,589 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 文本识别完成
+INFO 2022-01-11 09:08:01,589 whole_stages 60 ['袖长', '46', '50', '54', '58.5']
+INFO 2022-01-11 09:08:01,589 views 49 商品：57451455 识别完成！！！
+INFO 2022-01-11 09:08:01,589 basehttp 157 "POST /detect/ HTTP/1.1" 200 239
+INFO 2022-01-11 09:10:11,725 views 37 商品：57451455图片保存完成！！
+INFO 2022-01-11 09:10:20,125 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 列识别完成, 耗时为：8400毫秒
+INFO 2022-01-11 09:10:28,681 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 列识别完成, 耗时为：8555毫秒
+INFO 2022-01-11 09:10:30,680 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:10:30,680 whole_stages 60 ['建议身高', '00-105', '100-110', '110-120', '120-130', '130-140']
+INFO 2022-01-11 09:10:31,948 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:10:31,948 whole_stages 60 ['胸围', '71', '74', '78', '86']
+INFO 2022-01-11 09:10:33,397 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:10:33,398 whole_stages 60 ['尺码(G)', '105', '110', '120', '130', '140']
+INFO 2022-01-11 09:10:34,766 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:10:34,767 whole_stages 60 ['衣长', '40', '43', '46', '50', '54']
+INFO 2022-01-11 09:10:36,153 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:10:36,153 whole_stages 60 ['袖长', '46', '50', '54', '58.5']
+INFO 2022-01-11 09:10:36,153 views 49 商品：57451455 识别完成！！！
+INFO 2022-01-11 09:10:36,154 basehttp 157 "POST /detect/ HTTP/1.1" 200 239
+INFO 2022-01-11 09:12:04,348 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 09:12:06,280 ocr 10 CRNN模型加载完成！！
+INFO 2022-01-11 09:12:08,067 whole_stages 21 yolo模型记载完成！！
+INFO 2022-01-11 09:12:09,640 whole_stages 31 CTPN模型加载完成
+INFO 2022-01-11 09:12:09,721 whole_stages 33 CRNN模型加载完成
+INFO 2022-01-11 09:12:12,551 views 37 商品：57451455图片保存完成！！
+INFO 2022-01-11 09:12:21,615 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 列识别完成, 耗时为：9064毫秒
+INFO 2022-01-11 09:12:21,615 whole_stages 49 Nothing detect !!!
+INFO 2022-01-11 09:12:30,324 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 列识别完成, 耗时为：8709毫秒
+INFO 2022-01-11 09:12:32,330 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:12:32,332 whole_stages 60 ['建议身高', '00-105', '100-110', '110-120', '120-130', '130-140']
+INFO 2022-01-11 09:12:33,610 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:12:33,611 whole_stages 60 ['胸围', '71', '74', '78', '86']
+INFO 2022-01-11 09:12:35,067 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:12:35,067 whole_stages 60 ['尺码(G)', '105', '110', '120', '130', '140']
+INFO 2022-01-11 09:12:36,426 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:12:36,426 whole_stages 60 ['衣长', '40', '43', '46', '50', '54']
+INFO 2022-01-11 09:12:37,817 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:12:37,817 whole_stages 60 ['袖长', '46', '50', '54', '58.5']
+INFO 2022-01-11 09:12:37,817 views 49 商品：57451455 识别完成！！！
+INFO 2022-01-11 09:12:37,818 basehttp 157 "POST /detect/ HTTP/1.1" 200 239
+INFO 2022-01-11 09:28:13,433 autoreload 240 /Users/duty/PycharmProjects/ocr/sizechart_detect/utils/size_chart_normal.py changed, reloading.
+INFO 2022-01-11 09:28:14,799 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 09:28:16,665 ocr 10 CRNN模型加载完成！！
+INFO 2022-01-11 09:28:18,439 whole_stages 21 yolo模型记载完成！！
+INFO 2022-01-11 09:28:19,965 whole_stages 31 CTPN模型加载完成
+INFO 2022-01-11 09:28:20,046 whole_stages 33 CRNN模型加载完成
+INFO 2022-01-11 09:29:27,087 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 09:29:28,064 ocr 10 CRNN模型加载完成！！
+INFO 2022-01-11 09:29:29,857 whole_stages 21 yolo模型记载完成！！
+INFO 2022-01-11 09:29:31,446 whole_stages 31 CTPN模型加载完成
+INFO 2022-01-11 09:29:31,528 whole_stages 33 CRNN模型加载完成
+INFO 2022-01-11 09:29:37,635 views 37 商品：57451455图片保存完成！！
+INFO 2022-01-11 09:29:47,374 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 列识别完成, 耗时为：9738毫秒
+INFO 2022-01-11 09:29:47,375 whole_stages 49 Nothing detect !!!
+INFO 2022-01-11 09:29:56,879 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 列识别完成, 耗时为：9504毫秒
+INFO 2022-01-11 09:29:58,946 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:29:58,947 whole_stages 60 ['建议身高', '00-105', '100-110', '110-120', '120-130', '130-140']
+INFO 2022-01-11 09:30:00,252 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:30:00,252 whole_stages 60 ['胸围', '71', '74', '78', '86']
+INFO 2022-01-11 09:30:01,741 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:30:01,741 whole_stages 60 ['尺码(G)', '105', '110', '120', '130', '140']
+INFO 2022-01-11 09:30:03,156 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:30:03,156 whole_stages 60 ['衣长', '40', '43', '46', '50', '54']
+INFO 2022-01-11 09:30:04,588 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:30:04,588 whole_stages 60 ['袖长', '46', '50', '54', '58.5']
+INFO 2022-01-11 09:30:04,588 views 49 商品：57451455 识别完成！！！
+ERROR 2022-01-11 09:30:04,636 log 230 Internal Server Error: /detect/
+Traceback (most recent call last):
+  File "/Users/duty/Library/Python/3.7/lib/python/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/duty/Library/Python/3.7/lib/python/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/duty/PycharmProjects/ocr/ocr/views.py", line 51, in post
+    normal_col_texts = size_chart_normal(col_texts, size_attrs)
+  File "/Users/duty/PycharmProjects/ocr/sizechart_detect/utils/size_chart_normal.py", line 16, in size_chart_normal
+    if no_chinese_filter(rec_col_name) in no_chinese_filter(col_name) or no_chinese_filter(col_name) in no_chinese_filter(rec_col_name):
+  File "/Users/duty/PycharmProjects/ocr/sizechart_detect/utils/no_chinese_filter.py", line 8, in no_chinese_filter
+    output_str = re.sub('[^\u4e00-\u9fa5]+','',s)
+NameError: name 's' is not defined
+ERROR 2022-01-11 09:30:04,637 basehttp 157 "POST /detect/ HTTP/1.1" 500 74507
+INFO 2022-01-11 09:30:33,961 autoreload 240 /Users/duty/PycharmProjects/ocr/sizechart_detect/utils/no_chinese_filter.py changed, reloading.
+INFO 2022-01-11 09:30:34,994 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 09:30:36,658 ocr 10 CRNN模型加载完成！！
+INFO 2022-01-11 09:30:38,446 whole_stages 21 yolo模型记载完成！！
+INFO 2022-01-11 09:30:40,063 whole_stages 31 CTPN模型加载完成
+INFO 2022-01-11 09:30:40,149 whole_stages 33 CRNN模型加载完成
+INFO 2022-01-11 09:30:43,631 views 37 商品：57451455图片保存完成！！
+INFO 2022-01-11 09:30:52,655 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 列识别完成, 耗时为：9024毫秒
+INFO 2022-01-11 09:30:52,655 whole_stages 49 Nothing detect !!!
+INFO 2022-01-11 09:31:01,543 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 列识别完成, 耗时为：8888毫秒
+INFO 2022-01-11 09:31:03,584 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:31:03,584 whole_stages 60 ['建议身高', '00-105', '100-110', '110-120', '120-130', '130-140']
+INFO 2022-01-11 09:31:04,893 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:31:04,893 whole_stages 60 ['胸围', '71', '74', '78', '86']
+INFO 2022-01-11 09:31:06,386 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:31:06,387 whole_stages 60 ['尺码(G)', '105', '110', '120', '130', '140']
+INFO 2022-01-11 09:31:07,770 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:31:07,770 whole_stages 60 ['衣长', '40', '43', '46', '50', '54']
+INFO 2022-01-11 09:31:09,179 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:31:09,180 whole_stages 60 ['袖长', '46', '50', '54', '58.5']
+INFO 2022-01-11 09:31:09,180 views 49 商品：57451455 识别完成！！！
+INFO 2022-01-11 09:31:09,182 basehttp 157 "POST /detect/ HTTP/1.1" 200 239
+INFO 2022-01-11 09:31:38,899 views 37 商品：57451455图片保存完成！！
+INFO 2022-01-11 09:31:47,727 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 列识别完成, 耗时为：8828毫秒
+INFO 2022-01-11 09:31:47,727 whole_stages 49 Nothing detect !!!
+INFO 2022-01-11 09:31:56,448 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 列识别完成, 耗时为：8721毫秒
+INFO 2022-01-11 09:31:58,469 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:31:58,470 whole_stages 60 ['建议身高', '00-105', '100-110', '110-120', '120-130', '130-140']
+INFO 2022-01-11 09:31:59,759 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:31:59,759 whole_stages 60 ['胸围', '71', '74', '78', '86']
+INFO 2022-01-11 09:32:01,223 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:32:01,223 whole_stages 60 ['尺码(G)', '105', '110', '120', '130', '140']
+INFO 2022-01-11 09:32:02,583 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:32:02,584 whole_stages 60 ['衣长', '40', '43', '46', '50', '54']
+INFO 2022-01-11 09:32:03,989 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:32:03,989 whole_stages 60 ['袖长', '46', '50', '54', '58.5']
+INFO 2022-01-11 09:32:03,989 views 49 商品：57451455 识别完成！！！
+INFO 2022-01-11 09:32:03,990 basehttp 157 "POST /detect/ HTTP/1.1" 200 302
+INFO 2022-01-11 09:40:11,722 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 09:40:13,808 ocr 10 CRNN模型加载完成！！
+INFO 2022-01-11 09:40:15,815 whole_stages 21 yolo模型记载完成！！
+INFO 2022-01-11 09:40:17,462 whole_stages 31 CTPN模型加载完成
+INFO 2022-01-11 09:40:17,546 whole_stages 33 CRNN模型加载完成
+INFO 2022-01-11 09:40:22,926 views 37 商品：57451455图片保存完成！！
+INFO 2022-01-11 09:40:31,735 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 列识别完成, 耗时为：8808毫秒
+INFO 2022-01-11 09:40:31,736 whole_stages 49 Nothing detect !!!
+INFO 2022-01-11 09:40:40,422 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 列识别完成, 耗时为：8686毫秒
+INFO 2022-01-11 09:40:42,695 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:40:42,696 whole_stages 60 ['建议身高', '00-105', '100-110', '110-120', '120-130', '130-140']
+INFO 2022-01-11 09:40:44,019 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:40:44,020 whole_stages 60 ['胸围', '71', '74', '78', '86']
+INFO 2022-01-11 09:40:45,514 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:40:45,515 whole_stages 60 ['尺码(G)', '105', '110', '120', '130', '140']
+INFO 2022-01-11 09:40:46,916 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:40:46,916 whole_stages 60 ['衣长', '40', '43', '46', '50', '54']
+INFO 2022-01-11 09:40:48,339 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:40:48,339 whole_stages 60 ['袖长', '46', '50', '54', '58.5']
+INFO 2022-01-11 09:40:48,339 views 49 商品：57451455 识别完成！！！
+INFO 2022-01-11 09:40:48,341 basehttp 157 "POST /detect/ HTTP/1.1" 200 302
+INFO 2022-01-11 09:46:21,848 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 09:46:23,666 ocr 10 CRNN模型加载完成！！
+INFO 2022-01-11 09:46:25,747 whole_stages 21 yolo模型记载完成！！
+INFO 2022-01-11 09:46:27,698 whole_stages 31 CTPN模型加载完成
+INFO 2022-01-11 09:46:27,796 whole_stages 33 CRNN模型加载完成
+INFO 2022-01-11 09:46:34,368 views 37 商品：57451455图片保存完成！！
+INFO 2022-01-11 09:46:43,316 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 列识别完成, 耗时为：8947毫秒
+INFO 2022-01-11 09:46:43,316 whole_stages 49 Nothing detect !!!
+INFO 2022-01-11 09:46:52,421 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 列识别完成, 耗时为：9105毫秒
+INFO 2022-01-11 09:46:54,565 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:46:54,565 whole_stages 60 ['建议身高', '00-105', '100-110', '110-120', '120-130', '130-140']
+INFO 2022-01-11 09:46:55,871 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:46:55,871 whole_stages 60 ['胸围', '71', '74', '78', '86']
+INFO 2022-01-11 09:46:57,350 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:46:57,351 whole_stages 60 ['尺码(G)', '105', '110', '120', '130', '140']
+INFO 2022-01-11 09:46:58,717 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:46:58,717 whole_stages 60 ['衣长', '40', '43', '46', '50', '54']
+INFO 2022-01-11 09:47:00,122 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:47:00,122 whole_stages 60 ['袖长', '46', '50', '54', '58.5']
+INFO 2022-01-11 09:47:00,122 views 49 商品：57451455 识别完成！！！
+INFO 2022-01-11 09:47:00,125 basehttp 157 "POST /detect/ HTTP/1.1" 200 302
+INFO 2022-01-11 09:52:10,225 autoreload 240 /Users/duty/PycharmProjects/ocr/sizechart_detect/column_detect/darknet_yolo3_detect.py changed, reloading.
+INFO 2022-01-11 09:52:11,283 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 09:52:12,381 ocr 10 CRNN模型加载完成！！
+INFO 2022-01-11 09:52:14,129 whole_stages 21 yolo模型记载完成！！
+INFO 2022-01-11 09:52:15,760 whole_stages 31 CTPN模型加载完成
+INFO 2022-01-11 09:52:15,843 whole_stages 33 CRNN模型加载完成
+INFO 2022-01-11 09:52:20,681 views 37 商品：57451455图片保存完成！！
+INFO 2022-01-11 09:52:29,425 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 列识别完成, 耗时为：8744毫秒
+INFO 2022-01-11 09:52:29,426 whole_stages 49 Nothing detect !!!
+INFO 2022-01-11 09:52:38,716 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 列识别完成, 耗时为：9290毫秒
+INFO 2022-01-11 09:52:40,775 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:52:40,775 whole_stages 60 ['建议身高', '90-105', '100-110', '110-120', '120-130', '130-140']
+INFO 2022-01-11 09:52:42,079 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:52:42,079 whole_stages 60 ['胸围', '71', '74', '78', '86']
+INFO 2022-01-11 09:52:43,554 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:52:43,554 whole_stages 60 ['尺码(00', '105', '110', '120', '130', '140']
+INFO 2022-01-11 09:52:44,934 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:52:44,935 whole_stages 60 ['衣长', '40', '43', '46', '50', '54']
+INFO 2022-01-11 09:52:46,380 whole_stages 54 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:52:46,380 whole_stages 60 ['袖长', '46', '50', '54', '58.5']
+INFO 2022-01-11 09:52:46,380 views 49 商品：57451455 识别完成！！！
+INFO 2022-01-11 09:52:46,382 basehttp 157 "POST /detect/ HTTP/1.1" 200 302
+INFO 2022-01-11 09:53:32,522 autoreload 240 /Users/duty/PycharmProjects/ocr/sizechart_detect/whole_stages.py changed, reloading.
+INFO 2022-01-11 09:53:33,191 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 09:53:34,223 ocr 10 CRNN模型加载完成！！
+INFO 2022-01-11 09:53:36,000 whole_stages 21 yolo模型记载完成！！
+INFO 2022-01-11 09:53:37,561 whole_stages 31 CTPN模型加载完成
+INFO 2022-01-11 09:53:37,650 whole_stages 33 CRNN模型加载完成
+INFO 2022-01-11 09:53:40,960 views 37 商品：57451455图片保存完成！！
+INFO 2022-01-11 09:53:50,556 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 列识别完成, 耗时为：9596毫秒
+INFO 2022-01-11 09:53:50,556 whole_stages 49 Nothing detect !!!
+INFO 2022-01-11 09:53:59,855 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 列识别完成, 耗时为：9298毫秒
+INFO 2022-01-11 09:54:01,929 whole_stages 59 ['建议身高', '90-105', '100-110', '110-120', '120-130', '130-140']
+INFO 2022-01-11 09:54:03,259 whole_stages 59 ['胸围', '71', '74', '78', '86']
+INFO 2022-01-11 09:54:04,781 whole_stages 59 ['尺码(00', '105', '110', '120', '130', '140']
+INFO 2022-01-11 09:54:06,179 whole_stages 59 ['衣长', '40', '43', '46', '50', '54']
+INFO 2022-01-11 09:54:07,615 whole_stages 59 ['袖长', '46', '50', '54', '58.5']
+INFO 2022-01-11 09:54:07,616 whole_stages 61 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:54:07,616 views 49 商品：57451455 识别完成！！！
+INFO 2022-01-11 09:54:07,618 basehttp 157 "POST /detect/ HTTP/1.1" 200 302
+INFO 2022-01-11 09:54:30,645 autoreload 240 /Users/duty/PycharmProjects/ocr/sizechart_detect/column_detect/darknet_yolo3_detect.py changed, reloading.
+INFO 2022-01-11 09:54:31,326 autoreload 617 Watching for file changes with StatReloader
+INFO 2022-01-11 09:54:32,323 ocr 10 CRNN模型加载完成！！
+INFO 2022-01-11 09:54:34,090 whole_stages 21 yolo模型记载完成！！
+INFO 2022-01-11 09:54:35,680 whole_stages 31 CTPN模型加载完成
+INFO 2022-01-11 09:54:35,765 whole_stages 33 CRNN模型加载完成
+INFO 2022-01-11 09:54:38,406 views 37 商品：57451455图片保存完成！！
+INFO 2022-01-11 09:54:47,386 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_1.jpg 列识别完成, 耗时为：8979毫秒
+INFO 2022-01-11 09:54:47,386 whole_stages 49 Nothing detect !!!
+INFO 2022-01-11 09:54:56,232 whole_stages 46 商品：/Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 列识别完成, 耗时为：8846毫秒
+INFO 2022-01-11 09:54:58,243 whole_stages 59 ['建议身高', '90-105', '100-110', '110-120', '120-130', '130-140']
+INFO 2022-01-11 09:54:59,554 whole_stages 59 ['胸围', '71', '74', '78', '86']
+INFO 2022-01-11 09:55:01,021 whole_stages 59 ['尺码(00', '105', '110', '120', '130', '140']
+INFO 2022-01-11 09:55:02,408 whole_stages 59 ['衣长', '40', '43', '46', '50', '54']
+INFO 2022-01-11 09:55:03,861 whole_stages 59 ['袖长', '46', '50', '54', '58.5']
+INFO 2022-01-11 09:55:03,861 whole_stages 61 商品： /Users/duty/PycharmProjects/ocr/data/image_data/original_images/57451455_2.jpg 文本识别完成
+INFO 2022-01-11 09:55:03,861 views 49 商品：57451455 识别完成！！！
+INFO 2022-01-11 09:55:03,865 basehttp 157 "POST /detect/ HTTP/1.1" 200 302
