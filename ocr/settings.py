@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'sizechart_detect.urls'
+# ROOT_URLCONF = 'sizechart_detect.urls'
 
 TEMPLATES = [
     {
