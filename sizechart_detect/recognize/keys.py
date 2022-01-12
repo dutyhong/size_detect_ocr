@@ -18,7 +18,10 @@ import pickle as pkl
 # alphabet_list = sorted(list(alphabet_set))
 # pkl.dump(alphabet_list,open('alphabet.pkl','wb'))
 
-alphabet_list = pkl.load(open('/Users/duty/PycharmProjects/ocr/sizechart_detect/recognize/alphabet.pkl','rb'))
+# alphabet_list = pkl.load(open('/Users/duty/PycharmProjects/ocr/sizechart_detect/recognize/alphabet.pkl','rb'))
+from sizechart_detect.global_config import ALPHABET_DIR
+
+alphabet_list = pkl.load(open(ALPHABET_DIR+'alphabet.pkl','rb'))
 alphabet = [ord(ch) for ch in alphabet_list]
 alphabet_v2 = alphabet
 # print(alphabet_v2)

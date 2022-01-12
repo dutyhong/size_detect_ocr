@@ -9,3 +9,4 @@ CTPN_MODELS_DIR = '/Users/duty/PycharmProjects/ocr/data/models/' if APP_ENV=="de
 CRNN_MODELS_DIR = '/Users/duty/PycharmProjects/ocr/data/models/' if APP_ENV=="default" else "/home/tizi/ocr/data/models/"
 YOLO_MODELS_DIR = '/Users/duty/publicdata/yolo_weights/' if APP_ENV=="default" else "/home/tizi/publicdata/yolo_weights/"
 LIBDARKNET_DIR = '/Users/duty/work/darknet/python/' if APP_ENV=="default" else "/home/tizi/darknet/python/"
+ALPHABET_DIR = '/Users/duty/PycharmProjects/ocr/sizechart_detect/recognize/' if APP_ENV=="default" else "/home/tizi/ocr/sizechart_detect/recognize/"
