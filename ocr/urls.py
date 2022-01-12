@@ -23,5 +23,5 @@ urlpatterns = [
     # url(r'^name/', include('sizechart_detect.urls'), name='sizechart_detect'),
     # url(r'^name/', include('sizechart_detect.urls'))
     # path('sizechart_detect/',include('sizechart_detect.urls')),
-    path('',views.post, name='post'),
+    path('detect/',views.post, name='post'),
 ]
