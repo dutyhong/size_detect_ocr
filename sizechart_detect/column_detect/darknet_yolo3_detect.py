@@ -6,6 +6,8 @@ from ctypes import *
 import random
 import cv2
 
+from sizechart_detect.global_config import LIBDARKNET_DIR
+
 
 def sample(probs):
     s = sum(probs)
@@ -52,7 +54,8 @@ class METADATA(Structure):
                 ("names", POINTER(c_char_p))]
 
 
-lib = CDLL("/Users/duty/work/darknet/python/libdarknet.so", RTLD_GLOBAL)
+# lib = CDLL("/Users/duty/work/darknet/python/libdarknet.so", RTLD_GLOBAL)
+lib = CDLL(LIBDARKNET_DIR+"libdarknet.so",RTLD_GLOBAL )
 # lib = CDLL("libdarknet.so", RTLD_GLOBAL)
 lib.network_width.argtypes = [c_void_p]
 lib.network_width.restype = c_int

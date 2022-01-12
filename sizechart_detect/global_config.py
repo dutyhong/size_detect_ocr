@@ -8,3 +8,4 @@ ORIGINAL_IMAGE_FILEPATH = '/Users/duty/PycharmProjects/ocr/data/image_data/origi
 CTPN_MODELS_DIR = '/Users/duty/PycharmProjects/ocr/data/models/' if APP_ENV=="default" else "/home/tizi/ocr/data/models/"
 CRNN_MODELS_DIR = '/Users/duty/PycharmProjects/ocr/data/models/' if APP_ENV=="default" else "/home/tizi/ocr/data/models/"
 YOLO_MODELS_DIR = '/Users/duty/publicdata/yolo_weights/' if APP_ENV=="default" else "/home/tizi/publicdata/yolo_weights/"
+LIBDARKNET_DIR = '/Users/duty/work/darknet/python/' if APP_ENV=="default" else "/home/tizi/darknet/python/"
