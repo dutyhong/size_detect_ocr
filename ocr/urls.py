@@ -19,10 +19,7 @@ from django.urls import path, include
 from . import views
 
 urlpatterns = [
-    url(r'^detect/', views.post),
-    # url(r'^name/', include('sizechart_detect.urls'))
+    # url(r'^detect/', views.post),
+    url(r'^name/', include('sizechart_detect.urls')),
     # path('add/',)
 ]
-# rlpatterns = [
-#     path('hello/', views.hello),
-# ]

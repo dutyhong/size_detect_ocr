@@ -6,5 +6,6 @@ from django.conf.urls import url
 from sizechart_detect import views
 
 urlpatterns = [
-    url(r'^', views.add),
+    url(r'^detect/', views.post),
+# url(r'^name/', include('sizechart_detect.urls'))
 ]
