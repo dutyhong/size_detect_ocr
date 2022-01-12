@@ -27,7 +27,7 @@ logger.info("yolo模型记载完成！！")
 gpu = True
 if not torch.cuda.is_available():
     gpu = False
-device = torch.device('cuda:1' if gpu else 'cpu')
+device = torch.device('cuda:0' if gpu else 'cpu')
 weights = os.path.join(config.checkpoints_dir, 'CTPN.pth')
 model = CTPN_Model()
 model.load_state_dict(torch.load(weights, map_location=device)['model_state_dict'])
