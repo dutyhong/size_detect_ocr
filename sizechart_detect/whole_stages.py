@@ -9,20 +9,25 @@ import torch
 from sizechart_detect.detect import config
 from sizechart_detect.column_detect.darknet_yolo3_detect import load_net, load_meta, detect_and_boxing
 from sizechart_detect.detect.ctpn_model import CTPN_Model
+from sizechart_detect.global_config import YOLO_MODELS_DIR
 from sizechart_detect.ocr import  ocr2
 import logging
 
 from sizechart_detect.recognize.crnn_recognizer import PytorchOcr
 
 logger = logging.getLogger('django')
-
-net = load_net(b"/Users/duty/publicdata/yolo_weights/col_detect.cfg", b"/Users/duty/publicdata/yolo_weights/col_detect.weights", 0)
-meta = load_meta(b"/Users/duty/publicdata/yolo_weights/col_detect.data")
+cfg_data = bytes(YOLO_MODELS_DIR+"col_detect.cfg",encoding="utf-8")
+weights_data = bytes(YOLO_MODELS_DIR+"col_detect.weights", encoding="utf-8")
+meta_data = bytes(YOLO_MODELS_DIR+"col_detect.data", encoding="utf-8")
+# net = load_net(b"/Users/duty/publicdata/yolo_weights/col_detect.cfg", b"/Users/duty/publicdata/yolo_weights/col_detect.weights", 0)
+# meta = load_meta(b"/Users/duty/publicdata/yolo_weights/col_detect.data")
+net = load_net(cfg_data, weights_data, 0)
+meta = load_meta(meta_data)
 logger.info("yolo模型记载完成！！")
 gpu = True
 if not torch.cuda.is_available():
     gpu = False
-device = torch.device('cuda:0' if gpu else 'cpu')
+device = torch.device('cuda:1' if gpu else 'cpu')
 weights = os.path.join(config.checkpoints_dir, 'CTPN.pth')
 model = CTPN_Model()
 model.load_state_dict(torch.load(weights, map_location=device)['model_state_dict'])
