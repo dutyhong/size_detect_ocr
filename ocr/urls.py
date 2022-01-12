@@ -19,10 +19,6 @@ from django.urls import path, include
 from . import views
 
 urlpatterns = [
-    # url(r'^detect/', views.post),
-    # url(r'^name/', include('sizechart_detect.urls'), name='sizechart_detect'),
-    # url(r'^name/', include('sizechart_detect.urls'))
     path('sizechart_detect/',include('sizechart_detect.urls')),
     path('admin/', admin.site.urls),
-    # path('detect/',views.post, name='post'),
 ]
