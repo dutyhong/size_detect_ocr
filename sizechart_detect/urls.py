@@ -7,4 +7,5 @@ from sizechart_detect import views
 
 urlpatterns = [
     url(r'^detect/', views.post),
+    url(r'^detect_kafka/', views.kafka_post),
 ]

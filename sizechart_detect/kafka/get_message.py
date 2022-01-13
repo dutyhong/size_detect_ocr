@@ -5,7 +5,7 @@ import logging
 
 from kafka import KafkaConsumer
 
-from sizechart_detect.config import KAFKA_SERVER
+from sizechart_detect.global_config import KAFKA_SERVER
 
 
 def kafka_consumer():
