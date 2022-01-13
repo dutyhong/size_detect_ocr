@@ -37,6 +37,7 @@ def load_save_image(item_id, img_urls):
         return image_file_suffix
     except IOError as e:
         logger.error("图片读取保存报错！！！")
+        return
     except Exception as e:
         logger.error("图片读取保存报错！！！")
 

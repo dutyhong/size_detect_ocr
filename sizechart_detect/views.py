@@ -36,6 +36,11 @@ def post(request):
 	logger.info("商品：%s图片保存完成！！"%(item_id))
 	## 开始进行图片识别，是否有尺码表
 	image_num = len(image_urls)
+	if image_num>20:
+		res_dic['item_id'] = item_id
+		res_dic['status'] = 'failed'
+		res_dic = json.dumps(res_dic)
+		return res_dic
 	col_texts = []
 	for i in range(image_num):
 		filepath = ORIGINAL_IMAGE_FILEPATH + os.sep + str(item_id) + "_" + str(i + 1) + image_file_suffix
