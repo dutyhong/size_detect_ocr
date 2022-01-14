@@ -32,8 +32,8 @@ def post(request):
 		res_dic['item_id'] = item_id
 		res_dic["msg"] = "输入参数有问题！！"
 		res_dic['request'] = post_body
-		res_dic = json.dumps(res_dic)
-		return HttpResponse(res_dic,ensure_ascii=False)
+		res_dic = json.dumps(res_dic,ensure_ascii=False)
+		return HttpResponse(res_dic)
 	# image_urls = json.loads(image_urls)
 	# size_attrs = json.loads(size_attrs)
 	# sizes = json.loads(sizes)
@@ -49,7 +49,7 @@ def post(request):
 		res_dic['request'] = post_body
 		res_dic["mag"] = "picture too many or load failed"
 		res_dic = json.dumps(res_dic,ensure_ascii=False)
-		return res_dic
+		return HttpResponse(res_dic)
 	col_texts = []
 	for i in range(image_num):
 		filepath = ORIGINAL_IMAGE_FILEPATH + os.sep + str(item_id) + "_" + str(i + 1) + image_file_suffix
