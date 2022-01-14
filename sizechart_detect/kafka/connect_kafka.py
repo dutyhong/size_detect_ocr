@@ -6,5 +6,5 @@ from kafka import KafkaConsumer, KafkaProducer
 from sizechart_detect.global_config import KAFKA_SERVER, KAFKA_CONSUMER_TOPIC
 kafka_producer = KafkaProducer(bootstrap_servers=KAFKA_SERVER, api_version=(0,10))
 print("生产者连接完成")
-kafka_consumer = KafkaConsumer(KAFKA_CONSUMER_TOPIC, bootstrap_servers=["ir-search-kafka01.duolainc.com:9092"], group_id='image', auto_offset_reset='latest', consumer_timeout_ms=1000*60)
+kafka_consumer = KafkaConsumer(KAFKA_CONSUMER_TOPIC, bootstrap_servers=KAFKA_SERVER.split(","), group_id='image', auto_offset_reset='latest', consumer_timeout_ms=1000*60)
 print("消费者连接完成")
