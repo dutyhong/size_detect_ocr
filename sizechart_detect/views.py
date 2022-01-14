@@ -29,8 +29,11 @@ def post(request):
 	if item_id is None or image_urls is None or size_attrs is None or sizes is None:
 		logging.error("输入参数有问题！！！")
 		res_dic['status'] = 'failed'
+		res_dic['item_id'] = item_id
+		res_dic["msg"] = "输入参数有问题！！"
+		res_dic['request'] = post_body
 		res_dic = json.dumps(res_dic)
-		return HttpResponse(res_dic)
+		return HttpResponse(res_dic,ensure_ascii=False)
 	# image_urls = json.loads(image_urls)
 	# size_attrs = json.loads(size_attrs)
 	# sizes = json.loads(sizes)
@@ -40,10 +43,12 @@ def post(request):
 	logger.info("商品：%s图片保存完成！！"%(item_id))
 	## 开始进行图片识别，是否有尺码表
 	image_num = len(image_urls)
-	if image_num>20:
+	if image_num>30 or image_file_suffix is None:
 		res_dic['item_id'] = item_id
 		res_dic['status'] = 'failed'
-		res_dic = json.dumps(res_dic)
+		res_dic['request'] = post_body
+		res_dic["mag"] = "picture too many or load failed"
+		res_dic = json.dumps(res_dic,ensure_ascii=False)
 		return res_dic
 	col_texts = []
 	for i in range(image_num):
@@ -61,6 +66,8 @@ def post(request):
 	## 将识别出来的列名和尺码表的列名对齐，转化为id
 	normal_col_texts = size_chart_normal(col_texts, size_attrs)
 	res_dic['size_chart'] = normal_col_texts
+	res_dic['iem_id'] = item_id
+	res_dic['request'] = post_body
 	res_dic['status'] = 'success'
 	res_dic = json.dumps(res_dic,ensure_ascii=False)
 	return HttpResponse(res_dic)
