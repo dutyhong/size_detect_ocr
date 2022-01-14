@@ -8,7 +8,7 @@ from kafka import KafkaConsumer
 import json
 from kafka import KafkaProducer
 
-from sizechart_detect.global_config import KAFKA_SERVER, KAFKA_PRODUCER_TOPIC
+# from sizechart_detect.global_config import KAFKA_SERVER, KAFKA_PRODUCER_TOPIC
 
 
 def kafka_producer():
