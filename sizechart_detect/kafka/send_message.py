@@ -8,11 +8,11 @@ from kafka import KafkaConsumer
 import json
 from kafka import KafkaProducer
 
-from sizechart_detect.global_config import KAFKA_SERVER
+from sizechart_detect.global_config import KAFKA_SERVER, KAFKA_PRODUCER_TOPIC
 
 
 def kafka_producer():
-  producer = KafkaProducer(bootstrap_servers=KAFKA_SERVER, api_version=(0,10))
+  producer = KafkaProducer(bootstrap_servers="ir-search-kafka01.duolainc.com:9092,ir-search-kafka02.duolainc.com:9092,ir-search-kafka03.duolainc.com:9092", api_version=(0,10))
   logging.info("生产者创建成功！！")
   msg_dict = {
     "image_urls":["111","222"],
@@ -20,7 +20,7 @@ def kafka_producer():
     "sizes":{"S":2047426,"L":2047401}
   }
   msg = json.dumps(msg_dict,ensure_ascii=False)
-  producer.send('image_recognize', msg.encode()) ##, partition=0)
+  producer.send("size_recog_result", msg.encode()) ##, partition=0)
   producer.close()
   logging.info("消息生产成功！！")
   print("消息生产成功！！")

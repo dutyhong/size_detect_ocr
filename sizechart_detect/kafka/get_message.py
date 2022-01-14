@@ -5,11 +5,11 @@ import logging
 
 from kafka import KafkaConsumer
 
-from sizechart_detect.global_config import KAFKA_SERVER
+# from sizechart_detect.global_config import KAFKA_SERVER, KAFKA_PRODUCER_TOPIC
 
 
 def kafka_consumer():
-    consumer = KafkaConsumer('image_recognize', bootstrap_servers=[KAFKA_SERVER], group_id='image', auto_offset_reset='latest', consumer_timeout_ms=1000*60*60)
+    consumer = KafkaConsumer("size_recog_result", bootstrap_servers="ir-search-kafka01.duolainc.com:9092,ir-search-kafka02.duolainc.com:9092,ir-search-kafka03.duolainc.com:9092".split(","), group_id='image', auto_offset_reset='latest', consumer_timeout_ms=1000*60*60)
     logging.info("kafka消费连接成功！！")
     print("kafka消费连接成功！！")
     for msg in consumer:
