@@ -35,10 +35,10 @@ def load_save_image(item_id, img_urls):
             urllib.request.urlretrieve(img_url, filename=filename)
             image_file_suffix = file_suffix
         return image_file_suffix
-    except IOError as e:
+    except IOError:
         logger.error("图片读取保存报错！！！")
         return None
-    except Exception as e:
+    except Exception:
         logger.error("图片读取保存报错！！！")
         return None
 
