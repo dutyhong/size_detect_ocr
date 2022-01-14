@@ -1,3 +1,5 @@
+import time
+
 from django.shortcuts import render
 
 # Create your views here.
@@ -6,7 +8,7 @@ import logging
 import os
 
 from sizechart_detect.global_config import ORIGINAL_IMAGE_FILEPATH, KAFKA_PRODUCER_TOPIC
-from sizechart_detect.kafka.connect_kafka import kafka_consumer, kafka_producer
+# from sizechart_detect.kafka.connect_kafka import kafka_consumer, kafka_producer
 
 logger = logging.getLogger('django')
 from django.http import HttpResponse
@@ -32,6 +34,7 @@ def post(request):
 	# image_urls = json.loads(image_urls)
 	# size_attrs = json.loads(size_attrs)
 	# sizes = json.loads(sizes)
+	start_time = int(1000*time.time())
 	##获取图片并保存
 	image_file_suffix = load_save_image(item_id, image_urls)
 	logger.info("商品：%s图片保存完成！！"%(item_id))
@@ -52,6 +55,9 @@ def post(request):
 			col_texts = detect_texts
 			break
 	logger.info("商品：%s 识别完成！！！"%(item_id))
+	end_time = int(1000*time.time())
+	total_time = end_time-start_time
+	logger.info("一个商品总耗时为：%s毫秒"%(total_time))
 	## 将识别出来的列名和尺码表的列名对齐，转化为id
 	normal_col_texts = size_chart_normal(col_texts, size_attrs)
 	res_dic['size_chart'] = normal_col_texts
@@ -61,22 +67,22 @@ def post(request):
 
 def kafka_post(request):
 	res_dic = {}
-	post_body = request.body
-	post_body = json.loads(post_body.decode())
-	command = post_body.get('command', 'start')
-	kafka_msgs = []
-	if command=='start':
-		for msg in kafka_consumer:
-			kafka_consumer.commit()
-			# recv = "%s:%d:%d: key=%s value=%s" % (msg.topic, msg.partition, msg.offset, msg.key, msg.value)
-			value = str(msg.value, "utf-8")
-			logging.info(value)
-			kafka_msgs.append(value)
-			print(value)
-		for kafka_msg in kafka_msgs:
-			kafka_producer.send(KAFKA_PRODUCER_TOPIC, kafka_msg.encode())
-		kafka_producer.close()
-	res_dic['msg'] = "数据消费完成！！"
+	# post_body = request.body
+	# post_body = json.loads(post_body.decode())
+	# command = post_body.get('command', 'start')
+	# kafka_msgs = []
+	# if command=='start':
+	# 	for msg in kafka_consumer:
+	# 		kafka_consumer.commit()
+	# 		# recv = "%s:%d:%d: key=%s value=%s" % (msg.topic, msg.partition, msg.offset, msg.key, msg.value)
+	# 		value = str(msg.value, "utf-8")
+	# 		logging.info(value)
+	# 		kafka_msgs.append(value)
+	# 		print(value)
+	# 	for kafka_msg in kafka_msgs:
+	# 		kafka_producer.send(KAFKA_PRODUCER_TOPIC, kafka_msg.encode())
+	# 	kafka_producer.close()
+	# res_dic['msg'] = "数据消费完成！！"
 	#获取图片并保存
 	# image_file_suffix = load_save_image(item_id, image_urls)
 	# logger.info("商品：%s图片保存完成！！"%(item_id))
