@@ -19,7 +19,15 @@ def size_chart_normal(col_texts, size_attrs):
 				for text in col_text[1:]:
 					normal_col_text.append(text)
 		normal_col_texts.append(normal_col_text)
-	return normal_col_texts
+	## 转换为字典
+	value_map = {}
+	for normal_col_text in normal_col_texts:
+		if len(normal_col_text)==0 or normal_col_text is None:
+			continue
+		col_code = str(normal_col_text[0])
+		col_values = normal_col_text[2:]
+		value_map[col_code] = col_values
+	return value_map
 
 
 

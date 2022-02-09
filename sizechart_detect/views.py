@@ -8,7 +8,8 @@ import logging
 import os
 
 from sizechart_detect.global_config import ORIGINAL_IMAGE_FILEPATH, KAFKA_PRODUCER_TOPIC
-# from sizechart_detect.kafka.connect_kafka import kafka_consumer, kafka_producer
+from sizechart_detect.kafka.connect_kafka import kafka_consumer, kafka_producer, kafka_consumer_priority
+from sizechart_detect.message_consume import consume_send
 
 logger = logging.getLogger('django')
 from django.http import HttpResponse
@@ -47,7 +48,7 @@ def post(request):
 		res_dic['item_id'] = item_id
 		res_dic['status'] = 'failed'
 		res_dic['request'] = post_body
-		res_dic["mag"] = "picture too many or load failed"
+		res_dic["msg"] = "picture too many or load failed"
 		res_dic = json.dumps(res_dic,ensure_ascii=False)
 		return HttpResponse(res_dic)
 	col_texts = []
@@ -73,46 +74,15 @@ def post(request):
 	return HttpResponse(res_dic)
 
 def kafka_post(request):
-	res_dic = {}
-	# post_body = request.body
-	# post_body = json.loads(post_body.decode())
-	# command = post_body.get('command', 'start')
-	# kafka_msgs = []
-	# if command=='start':
-	# 	for msg in kafka_consumer:
-	# 		kafka_consumer.commit()
-	# 		# recv = "%s:%d:%d: key=%s value=%s" % (msg.topic, msg.partition, msg.offset, msg.key, msg.value)
-	# 		value = str(msg.value, "utf-8")
-	# 		logging.info(value)
-	# 		kafka_msgs.append(value)
-	# 		print(value)
-	# 	for kafka_msg in kafka_msgs:
-	# 		kafka_producer.send(KAFKA_PRODUCER_TOPIC, kafka_msg.encode())
-	# 	kafka_producer.close()
-	# res_dic['msg'] = "数据消费完成！！"
-	#获取图片并保存
-	# image_file_suffix = load_save_image(item_id, image_urls)
-	# logger.info("商品：%s图片保存完成！！"%(item_id))
-	# ## 开始进行图片识别，是否有尺码表
-	# image_num = len(image_urls)
-	# if image_num>20:
-	# 	res_dic['item_id'] = item_id
-	# 	res_dic['status'] = 'failed'
-	# 	res_dic = json.dumps(res_dic)
-	# 	return res_dic
-	# col_texts = []
-	# for i in range(image_num):
-	# 	filepath = ORIGINAL_IMAGE_FILEPATH + os.sep + str(item_id) + "_" + str(i + 1) + image_file_suffix
-	# 	detect_texts = whole_stages(filepath)
-	# 	if detect_texts is None:
-	# 		continue
-	# 	else:
-	# 		col_texts = detect_texts
-	# 		break
-	# logger.info("商品：%s 识别完成！！！"%(item_id))
-	# ## 将识别出来的列名和尺码表的列名对齐，转化为id
-	# normal_col_texts = size_chart_normal(col_texts, size_attrs)
-	# res_dic['size_chart'] = normal_col_texts
-	# res_dic['status'] = 'success'
-	# res_dic = json.dumps(res_dic,ensure_ascii=False)
-	return HttpResponse(res_dic)
+	post_body = request.body
+	post_body = json.loads(post_body.decode())
+	command = post_body.get('command', 'start')
+	logger.info("进入kafka消费！！！")
+	if command=='start':
+		while(1):
+			# for msg in kafka_consumer_priority:
+			# 	# kafka_consumer_priority.commit()
+			# 	consume_send(msg)
+			# 	logger.info("priority consumer!!")
+			for msg in kafka_consumer:
+				consume_send(msg)

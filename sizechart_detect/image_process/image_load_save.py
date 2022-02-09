@@ -9,11 +9,7 @@ logger = logging.getLogger('django')
 from sizechart_detect.global_config import ORIGINAL_IMAGE_FILEPATH
 
 ssl._create_default_https_context = ssl._create_unverified_context
-#
-# img_url1 = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1516371301&di=d99af0828bb301fea27c2149a7070" \
-#           "d44&imgtype=jpg&er=1&src=http%3A%2F%2Fupload.qianhuaweb.com%2F2017%2F0718%2F1500369506683.jpg"
-img_url2 = "https://cbu01.alicdn.com/img/ibank/O1CN01YZiANY23jKN3DydL3_!!2207282997291-0-cib.jpg"
-# file_path = '/Users/duty/PycharmProjects/ocr/data/image_data/original_images'
+
 
 def load_save_image(item_id, img_urls):
     image_num = len(img_urls)

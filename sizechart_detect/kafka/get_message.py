@@ -4,19 +4,27 @@
 import logging
 
 from kafka import KafkaConsumer
-
+import json
 # from sizechart_detect.global_config import KAFKA_SERVER, KAFKA_PRODUCER_TOPIC
 
 
 def kafka_consumer():
-    consumer = KafkaConsumer("size_recog_result", bootstrap_servers="ir-search-kafka01.duolainc.com:9092,ir-search-kafka02.duolainc.com:9092,ir-search-kafka03.duolainc.com:9092".split(","), group_id='image', auto_offset_reset='latest', consumer_timeout_ms=1000*60*60)
-    logging.info("kafka消费连接成功！！")
+    consumer = KafkaConsumer(
+        "image_recognize",
+        sasl_mechanism="SCRAM-SHA-256",
+        security_protocol='SASL_PLAINTEXT',
+        sasl_plain_username="search",
+        sasl_plain_password="345a3b326679448b787f0e0e56858e47",
+        bootstrap_servers='zjk-search-kafka-pub.duolainc.com:9092',
+        auto_offset_reset='earliest', consumer_timeout_ms=1000*60*60, group_id = "tizi")
     print("kafka消费连接成功！！")
     for msg in consumer:
         consumer.commit()
-        # recv = "%s:%d:%d: key=%s value=%s" % (msg.topic, msg.partition, msg.offset, msg.key, msg.value)
+        recv = "%s:%d:%d: key=%s value=%s" % (msg.topic, msg.partition, msg.offset, msg.key, msg.value)
         value = str(msg.value,"utf-8")
-        logging.info(value)
+        msg_dict = json.loads(value)
+        print(msg_dict)
+        print(msg_dict["columnValueMap"])
         print(value)
     consumer.close()
 
