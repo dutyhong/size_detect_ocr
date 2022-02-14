@@ -8,7 +8,7 @@ import logging
 import os
 
 from sizechart_detect.global_config import ORIGINAL_IMAGE_FILEPATH, KAFKA_PRODUCER_TOPIC
-from sizechart_detect.kafka.connect_kafka import kafka_consumer, kafka_producer, kafka_consumer_priority
+from sizechart_detect.kafka.connect_kafka import kafka_consumer, kafka_producer
 from sizechart_detect.message_consume import consume_send
 
 logger = logging.getLogger('django')
