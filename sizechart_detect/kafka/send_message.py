@@ -38,7 +38,7 @@ def kafka_producer2():
 
 
 def kafka_producer():
-  producer = KafkaProducer(bootstrap_servers = 'x1-kafka-test-inner.fordealinc.com:9092')
+  producer = KafkaProducer(bootstrap_servers = 'nx1-kafka-test-inner.fordealinc.com:9092')
   logging.info("生产者创建成功！！")
   msg_dict = {
     "image_urls":["111","222"],
