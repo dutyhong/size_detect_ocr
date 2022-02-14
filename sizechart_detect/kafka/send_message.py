@@ -22,7 +22,7 @@ def kafka_producer2():
     sasl_plain_username="search",
     sasl_plain_password="345a3b326679448b787f0e0e56858e47",
     # bootstrap_servers='zjk-search-kafka-pub.duolainc.com:9092'
-    bootstrap_servers = 'x1-kafka-test-inner.fordealinc.com:9092'
+    bootstrap_servers = 'nx1-kafka-test-inner.fordealinc.com:9092'
   )
   print("生产者创建成功！！")
   msg_dict = {

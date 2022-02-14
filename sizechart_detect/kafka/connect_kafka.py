@@ -12,7 +12,7 @@ from sizechart_detect.global_config import KAFKA_SERVER, KAFKA_CONSUMER_TOPIC
 #     bootstrap_servers='zjk-search-kafka-pub.duolainc.com:9092'
 #   )
 kafka_producer = KafkaProducer(
-    bootstrap_servers='x1-kafka-test-inner.fordealinc.com:9092'
+    bootstrap_servers='nx1-kafka-test-inner.fordealinc.com:9092'
   )
 print("生产者连接完成")
 # kafka_consumer = KafkaConsumer(
@@ -24,7 +24,7 @@ print("生产者连接完成")
 #         bootstrap_servers='zjk-search-kafka-pub.duolainc.com:9092',
 #         auto_offset_reset='earliest', group_id = "tizi")
 kafka_consumer = KafkaConsumer(
-        bootstrap_servers='x1-kafka-test-inner.fordealinc.com:9092',
+        bootstrap_servers='nx1-kafka-test-inner.fordealinc.com:9092',
         auto_offset_reset='earliest', group_id = "tizi")
 # kafka_consumer_priority = KafkaConsumer(
 #         # "image_recognize_priority",
