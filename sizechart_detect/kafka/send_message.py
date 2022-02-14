@@ -3,11 +3,9 @@
 # 文件 ：message_send.py
 import logging
 
-from kafka import KafkaConsumer
 # 实例化一个KafkaProducer示例，用于向Kafka投递消息
 import json
 from kafka import KafkaProducer
-from confluent_kafka import Producer
 # from sizechart_detect.global_config import KAFKA_SERVER, KAFKA_PRODUCER_TOPIC
 conf = {
     'bootstrap.servers': 'zjk-search-kafka-pub.duolainc.com:9092',
