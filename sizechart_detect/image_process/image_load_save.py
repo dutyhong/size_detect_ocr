@@ -31,12 +31,13 @@ def load_save_image(item_id, img_urls):
             urllib.request.urlretrieve(img_url, filename=filename)
             image_file_suffixs.add(file_suffix)
         if len(image_file_suffixs)>1:
+            logger.info("图片名字太多！！")
             return None
         else:
-            return image_file_suffixs[0]
-    except IOError:
-        logger.error("图片读取保存报错！！！")
-        return None
+            return list(image_file_suffixs)[0]
+    # except IOError:
+    #     logger.error("图片读取保存报错！！！")
+    #     return None
     except Exception:
         logger.error("图片读取保存报错！！！")
         return None
