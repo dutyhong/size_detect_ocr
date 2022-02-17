@@ -31,7 +31,7 @@ def consume_send(msg):
 	logger.info("商品：%s图片保存完成！！" % (item_id))
 	## 开始进行图片识别，是否有尺码表
 	image_num = len(image_urls)
-	if image_num > 30:
+	if image_num > 30 or image_file_suffix is None:
 		res_dic['extId'] = item_id
 		res_dic['status'] = 'failed'
 		res_dic['columnValueMap'] = size_attrs

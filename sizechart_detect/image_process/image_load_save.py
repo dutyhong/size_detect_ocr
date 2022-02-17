@@ -13,7 +13,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 def load_save_image(item_id, img_urls):
     image_num = len(img_urls)
-    image_file_suffix = ""
+    image_file_suffixs = set()
     try:
         # 是否有这个路径
         if not os.path.exists(ORIGINAL_IMAGE_FILEPATH):
@@ -29,8 +29,11 @@ def load_save_image(item_id, img_urls):
             # print(filename)
             # 下载图片，并保存到文件夹中
             urllib.request.urlretrieve(img_url, filename=filename)
-            image_file_suffix = file_suffix
-        return image_file_suffix
+            image_file_suffixs.add(file_suffix)
+        if len(image_file_suffixs)>1:
+            return None
+        else:
+            return image_file_suffixs[0]
     except IOError:
         logger.error("图片读取保存报错！！！")
         return None
@@ -40,6 +43,7 @@ def load_save_image(item_id, img_urls):
 
 
 if __name__=="__main__":
-    image_urls = [ img_url2]
-    load_save_image("1", image_urls)
-    print("ddd")
+    pass
+    # image_urls = [ img_url2]
+    # load_save_image("1", image_urls)
+    # print("ddd")

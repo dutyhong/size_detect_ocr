@@ -84,5 +84,8 @@ def kafka_post(request):
 			# 	# kafka_consumer_priority.commit()
 			# 	consume_send(msg)
 			# 	logger.info("priority consumer!!")
-			for msg in kafka_consumer:
-				consume_send(msg)
+			try:
+				for msg in kafka_consumer:
+					consume_send(msg)
+			except Exception:
+				logger.error("MSG:处理出错")
