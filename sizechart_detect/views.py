@@ -1,4 +1,5 @@
 import time
+import traceback
 
 from django.shortcuts import render
 
@@ -88,4 +89,5 @@ def kafka_post(request):
 				for msg in kafka_consumer:
 					consume_send(msg)
 			except Exception:
+				logger.error(traceback.format_exc())
 				logger.error("MSG:处理出错")
