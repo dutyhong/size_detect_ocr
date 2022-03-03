@@ -8,6 +8,8 @@ from sizechart_detect.utils.no_chinese_filter import no_chinese_filter
 def size_chart_normal(col_texts, size_attrs):
 	normal_col_texts = []
 	for col_text in col_texts:
+		if len(col_text)==0:
+			continue
 		rec_col_name = col_text[0]
 		normal_col_text = []
 		for size_attr in size_attrs:
