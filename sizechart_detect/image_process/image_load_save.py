@@ -38,7 +38,10 @@ def load_save_image(item_id, img_urls):
             logger.info("图片名字太多！！")
             return None
         else:
-            return list(image_file_suffixs)[0]
+            if len(image_file_suffixs)==0:
+                return None
+            else:
+                return list(image_file_suffixs)[0]
     # except IOError:
     #     logger.error("图片读取保存报错！！！")
     #     return None
