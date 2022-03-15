@@ -22,6 +22,8 @@ def load_save_image(item_id, img_urls):
             # 获得图片后缀
         for i, img_url in enumerate(img_urls):
             file_suffix = os.path.splitext(img_url)[1]
+            if (file_suffix.lower()) not in ["png", "jpg", "jpeg"]:
+                continue
             # print(file_suffix)
             file_name = item_id+"_"+str(i+1)
             # 拼接图片名（包含路径）
