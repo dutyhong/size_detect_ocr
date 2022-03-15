@@ -46,7 +46,11 @@ def consume_send(msg):
 		recognize_ind = 0
 		for i in range(image_num):
 			filepath = ORIGINAL_IMAGE_FILEPATH + os.sep + str(item_id) + "_" + str(i + 1) + image_file_suffix
-			detect_texts = whole_stages(filepath)
+			try:
+				detect_texts = whole_stages(filepath)
+			except Exception:
+				logger.error("图片尺寸出错！！！！")
+				detect_texts = None
 			if detect_texts is None:
 				continue
 			else:

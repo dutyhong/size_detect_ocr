@@ -88,6 +88,7 @@ def kafka_post(request):
 			try:
 				for msg in kafka_consumer:
 					consume_send(msg)
+					# print("xxxx")
 			except Exception:
 				logger.error(traceback.format_exc())
 				logger.error("MSG:处理出错")
