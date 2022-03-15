@@ -5,6 +5,8 @@ import os
 import urllib.request
 import ssl
 import logging
+import socket
+socket.setdefaulttimeout(3*60)
 logger = logging.getLogger('django')
 from sizechart_detect.global_config import ORIGINAL_IMAGE_FILEPATH
 
@@ -32,7 +34,11 @@ def load_save_image(item_id, img_urls):
             filename = '{}{}{}{}'.format(ORIGINAL_IMAGE_FILEPATH, os.sep, file_name, file_suffix)
             # print(filename)
             # 下载图片，并保存到文件夹中
-            urllib.request.urlretrieve(img_url, filename=filename)
+            try:
+                urllib.request.urlretrieve(img_url, filename=filename)
+            except socket.timeout:
+                logger.error("下载超时！！！")
+                continue
             image_file_suffixs.add(file_suffix)
         if len(image_file_suffixs)>1:
             logger.info("图片名字太多！！")
