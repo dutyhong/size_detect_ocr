@@ -68,6 +68,7 @@ def consume_send(msg):
 			# res_dic['rowMapAsc'] = sizes
 			res_dic = json.dumps(res_dic, ensure_ascii=False)
 			kafka_producer.send(KAFKA_PRODUCER_TOPIC, res_dic.encode())
+			logger.info("未识别生产成功！！")
 		else:
 			normal_col_texts = size_chart_normal(col_texts, size_attrs)
 			res_dic['valueMap'] = normal_col_texts
