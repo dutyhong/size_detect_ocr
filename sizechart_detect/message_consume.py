@@ -40,6 +40,7 @@ def consume_send(msg):
 		res_dic = json.dumps(res_dic, ensure_ascii=False)
 		kafka_producer.send(KAFKA_PRODUCER_TOPIC, res_dic.encode())
 		logger.info("未识别生产成功！！")
+		return
 	image_file_suffix = load_save_image(item_id, image_urls)
 	logger.info("商品：%s图片保存完成！！" % (item_id))
 	if image_num > 30 or image_file_suffix is None or item_id in ("2253","2033","1904"):
