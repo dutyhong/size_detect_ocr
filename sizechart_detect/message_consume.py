@@ -43,7 +43,7 @@ def consume_send(msg):
 		return
 	image_file_suffix = load_save_image(item_id, image_urls)
 	logger.info("商品：%s图片保存完成！！" % (item_id))
-	if image_num > 30 or image_file_suffix is None or item_id in ("2253","2033","1904","3182"):
+	if image_num > 30 or image_file_suffix is None or item_id in ("2253","2033","1904","3182","4765"):
 		res_dic['extId'] = item_id
 		res_dic['status'] = 'failed'
 		res_dic['columnValueMap'] = size_attrs
