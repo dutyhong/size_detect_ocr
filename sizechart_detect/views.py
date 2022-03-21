@@ -94,5 +94,8 @@ def kafka_post(request):
 					except Exception:
 						logger.error(traceback.format_exc())
 						logger.error("MSG:处理出错")
-			finally:
-				kafka_consumer.close()
+			except Exception:
+				logger.error(traceback.format_exc())
+				logger.error("MSG:处理出错")
+			# finally:
+			# 	kafka_consumer.close()
