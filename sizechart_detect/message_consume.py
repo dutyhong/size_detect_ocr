@@ -23,7 +23,12 @@ def consume_send(msg):
 	msg_dict = json.loads(value)
 	size_attrs = msg_dict["columnValueMap"]
 	item_id = str(msg_dict["extId"])
-	image_urls = msg_dict["images"]
+	ori_image_urls = msg_dict["images"]
+	image_urls = []
+	for image_url in ori_image_urls:
+		if not image_url.endswith("g"):
+			continue
+		image_urls.append(image_url)
 	# sizes = msg_dict["rowMapAsc"]
 	# kafka_msgs.append(value)
 	# 获取图片并保存
